@@ -1,0 +1,57 @@
+/* src/css/AdminPage.css */
+
+.admin-page {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  /* Styling for the table */
+  .admin-page .ant-table {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Add some space between table and form */
+  .admin-page .ant-form {
+    margin-top: 20px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Form label styles */
+  .admin-page .ant-form-item-label > label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Form item styles */
+  .admin-page .ant-form-item {
+    margin-bottom: 16px;
+  }
+  
+  /* Button styles */
+  .admin-page .ant-btn {
+    border-radius: 4px;
+  }
+  
+  /* Selected user styling */
+  .admin-page .ant-btn {
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+  }
+  
+  .admin-page .ant-btn:hover {
+    background-color: #40a9ff;
+  }
+  
+  /* Header styling */
+  .admin-page h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  

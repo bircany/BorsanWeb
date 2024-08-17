@@ -1,0 +1,38 @@
+/* Bildirim butonu için stil */
+.notification-button {
+  font-size: 20px;
+  color: #333;
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Bildirim sayısı için badge */
+.notification-badge {
+  .ant-badge-count {
+    background-color: #ff4d4f; /* Kırmızı renk arka plan */
+  }
+}
+
+/* Özel bildirim stili */
+.custom-notification {
+  position: relative;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: #f5f5f5; /* Açık gri arka plan */
+}
+
+.custom-notification .ant-notification-notice {
+  padding: 0;
+}
+
+.custom-notification .notification-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  background-color: #1890ff; /* Mavi renk progress bar için */
+  width: 100%;
+  transition: width 2s linear; /* Progress bar süresi */
+}

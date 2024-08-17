@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #f0f2f5;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Additional general styles for dark mode */
+body.dark-mode .header,
+body.dark-mode .sider,
+body.dark-mode .content {
+  background-color: #1e1e1e;
+}

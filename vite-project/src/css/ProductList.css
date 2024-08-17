@@ -1,0 +1,161 @@
+.product-listing-page {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.product-listing-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2d6a4f; /* Green color */
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.export-button {
+  background-color: #2d6a4f; /* Green color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.export-button:hover {
+  background-color: #1b5e20; /* Darker green */
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #2d6a4f; /* Green color */
+  color: white;
+}
+
+.product-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product-table tr:hover {
+  background-color: #ddd;
+}
+
+.product-table .edit-button{
+  background-color: #2d6a4f; /* Green color */
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.product-table .edit-button:hover {
+  background-color: #1b5e20; /* Darker green */
+}
+
+.edit-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.edit-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.update-button {
+  background-color: #2d6a4f; /* Green color */
+  font-size:15px;
+}
+
+.update-button:hover {
+  background-color: #1b5e20; /* Darker green */
+}
+
+.cancel-button {
+  background-color: #ddd; /* Gray color */
+  color: black;
+}
+
+.cancel-button:hover {
+  background-color: #ccc; /* Darker gray */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red color */
+  color:white;
+
+}
+.product-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.plant-card img {
+  width: 250px; /* Fixed width */
+  height: 250px; /* Fixed height */
+  object-fit: cover; /* Ensures image fits within the fixed dimensions */
+  display: block;
+  margin: 0 auto;
+}
+
+.plant-card div {
+  text-align: center;
+  margin-top: 10px;
+}
+.add-button{
+  background-color: #2d6a4f; /* Green color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.edit-form label {
+    font-weight: bold;
+}
+
+.edit-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form .update-button,.edit-form .cancel-button, .edit-form .delete-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    color: white;
+}

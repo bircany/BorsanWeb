@@ -1,0 +1,77 @@
+/* Ürün Ekle Sayfası */
+.add-product {
+  padding: 20px;
+  background: #ffffff; /* Beyaz arka plan */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ff0000; /* Kırmızı başlık rengi */
+  text-align: center;
+}
+
+.add-product-form {
+  width: 100%;
+  padding: 20px;
+  background-color: #f9f9f9; /* Hafif gri arka plan */
+}
+
+.add-product-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2d6a4f; /* Yeşil renk */
+}
+
+.add-product-form .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.add-product-form .ant-form-item-label {
+  color: #2d6a4f; /* Yeşil renk */
+}
+
+.add-product-form .ant-btn-primary {
+  background-color: #2d6a4f; /* Yeşil buton */
+  border-color: #2d6a4f;
+  color: white;
+}
+
+.add-product-form .ant-btn-primary:hover {
+  background-color: #1b5e20; /* Daha koyu yeşil buton hover */
+  border-color: #1b5e20;
+}
+
+.add-product-form .ant-upload {
+  display: flex;
+  justify-content: center;
+}
+
+.add-product-form .ant-upload-select-picture-card {
+  width: 100%;
+}
+
+.add-product-form .ant-upload-list-item {
+  margin-bottom: 0;
+}
+
+.add-product-form .ant-upload-list-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.upload-button {
+  background-color: #2d6a4f; /* Yeşil renk */
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.upload-button:hover {
+  background-color: #1b5e20; /* Daha koyu yeşil */
+}

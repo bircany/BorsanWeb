@@ -1,0 +1,39 @@
+
+.profile-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header .profile-name {
+    margin-top: 10px;
+    color: #333; /* Koyu gri profil ismi rengi */
+  }
+  
+  .upload-avatar {
+    margin-bottom: 20px;
+  }
+  
+  .profile-form {
+    background: #ffffff; /* Beyaz arka plan */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #f0f0f0; /* Gri sınır */
+  }
+  
+  .save-button {
+    background-color: #ff0000; /* Kırmızı buton */
+    border-color: #ff0000; /* Kırmızı sınır */
+  }
+  
+  .save-button:hover {
+    background-color: #cc0000; /* Koyu kırmızı buton hover */
+    border-color: #cc0000; /* Koyu kırmızı sınır */
+  }

@@ -1,0 +1,19 @@
+.capture-screen-button {
+    background-color: #fc0707; /* Yeşil renk */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.capture-screen-button:hover {
+    background-color: #ff0d0d; /* Daha koyu yeşil */
+    transform: scale(1.05);
+}
+
+.capture-screen-button:active {
+    background-color: #00ff95; /* Daha koyu yeşil */
+}

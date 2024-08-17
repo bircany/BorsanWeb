@@ -1,0 +1,148 @@
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+/* App.css */
+.content {
+  margin: 20px 16px;
+  padding: 20px;
+}
+
+/* Mainpage Button and color */
+.ant-btn:hover {
+  color: #ff0000 !important;
+  border-color: #ff0000 !important; 
+}
+.ant-btn{
+  text-align: center;
+  color : whitesmoke;
+}
+.ant-btn-primary {
+  background-color: #ff0000; 
+}
+
+.ant-btn-primary:hover {
+  background-color: #cc0000 !important; 
+  color: #ffffff !important;
+}
+
+.primary--color {
+  color: #ff0000 !important;
+}
+
+.secondary--color {
+  color: #ff0000 !important; 
+}
+
+.gray--color {
+  color: #b6b5b5 !important; 
+}
+
+/* Plant lists */
+.plant-card {
+  flex: 1;
+  height: 250px;
+  text-align: center;
+  border: 1px solid #f0f0f0; 
+  transition: transform 0.3s;
+}
+
+.plant-card:hover {
+  transform: scale(1.05);
+}
+
+.mainpage-content {
+  padding: 20px;
+  background-color: #f0f2f5; 
+}
+
+.back-button {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.back-button .anticon {
+  margin-right: 8px; 
+}
+
+.header {
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-bar {
+  height: 100%;
+  border-right: 1px solid #e8e8e8;
+}
+
+.trigger-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.logo-container {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-icon {
+  font-size: 20px;
+}
+
+.custom-notification {
+  text-align: center;
+}
+.card-wrapper {
+  perspective: 1000px;
+  transition: transform 0.2s;
+}
+
+.plant-card {
+  transition: transform 0.2s;
+  transform-style: preserve-3d;
+}.carousel-container {
+  perspective: 1000px; /* Adjust perspective as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-slider .slick-slide {
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.carousel-slider .slick-slide div {
+  transform: rotateY(0deg);
+}
+
+.carousel-slider .slick-slide.slick-center {
+  transform: scale(1.1); /* Enlarge centered slide */
+}
+
+.carousel-slider .slick-slide:not(.slick-center) {
+  opacity: 0.5;
+}
+
+.carousel-slider .slick-prev, .carousel-slider .slick-next {
+  /* Style for navigation arrows */
+  z-index: 1;
+  background-color: #fff; /* Background color */
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slider .slick-prev {
+  left: 10px; /* Adjust position as needed */
+}
+
+.carousel-slider .slick-next {
+  right: 10px; /* Adjust position as needed */
+}

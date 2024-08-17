@@ -1,0 +1,79 @@
+/* LoginPage.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.login-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #e63946;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-input {
+  width: 100%;
+  box-sizing: border-box; /* Genişlik hesaplamalarını düzgün yapar */
+  height: 40px; /* Yükseklikleri aynı yapar */
+}
+
+.login-button {
+  width: 100%;
+  background-color: #e63946;
+  border-color: #e63946;
+  color: white;
+  height: 40px; /* Düğme yüksekliğini eşit yapar */
+}
+
+.login-button:hover {
+  background-color: #c21830;
+  border-color: #c21830;
+}
+
+.login-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-link {
+  color: #e63946;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .login-form {
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .login-title {
+    font-size: 1.5em;
+  }
+
+  .ant-form-item {
+    margin-bottom: 12px;
+  }
+}

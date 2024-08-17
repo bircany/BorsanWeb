@@ -1,0 +1,30 @@
+
+/* Header */
+.header-icon {
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #ff0000;
+  cursor: pointer;
+}
+  
+  /* CustomNotification.css */
+  .custom-notification {
+    position: relative;
+    padding: 16px 24px;
+  }
+  
+  .custom-notification .ant-notification-notice {
+    padding: 0;
+  }
+  
+  .custom-notification .notification-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background-color: #1890ff; /* Mavi renk progress bar için */
+    width: 100%;
+    transition: width 2s linear; /* Progress bar süresi */
+  }
